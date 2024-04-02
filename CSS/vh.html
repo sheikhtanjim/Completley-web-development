@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vh  vw</title>
+    <style>
+        .base{ 
+            background-color: #7fcc1a;
+            color: #5908db;
+        }
+        .box{
+            width: 250px;
+            border: 1px solid;
+        }
+        .fifty-percent{
+            width: 50%;
+        }
+        .vw50{
+            width: 50vw;
+        }
+        .vh50{
+            height: 20vh;
+        }
+        html{
+            font-size: 16px;
+        }
+        .REMS li{
+            font-size: 2.5px;
+        }
+        .min{
+            background-color: #e01c26;
+            height: 100vmin;
+            width: 100vmin;
+        }
+    </style>
+</head>
+<body>
+    <div class="base fifty-percent">50%</div>
+    <div class="base vh50">50vh</div>
+    <div class="base vw50">50vw</div>
+
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam!</h1>    
+
+    <div class="box">
+
+        <div class="base fiftypercent">50%</div>
+        <div class="base vh50">50vh</div>
+        <div class="base vw50">50vw</div>
+
+    </div>
+
+    <ul class="rems">
+        <li>one</li>
+        <li>two</li>
+        <li>three
+            <ul>
+                <li>three A</li>
+                <li>three B
+                    <UL>
+                        <LI>THREE b2</LI>
+                    </UL>
+                </li>
+            </ul>
+        </li>
+    </ul>
+     <div class="min"></div>
+    <p>
+        The vmin and vmax units allow you to access the size of the smaller or the larger side of the view port,
+        according to the following rules:
+
+        100vmin=100vw or 100vh,whichever is larger
+        1vmax=1vw or 1vh ,whichever is larger
+        so, in case of a potraits orentation, 100vmin is equal to 100vw,
+         as the viewport is smaller horizontally than vertically
+        for the same reason , 100vmax will be equal to 100vh.
+
+        similarly, in case of a landscape orientation 100vmin is equal 
+        to 100vh, as the viewportis smaller vertically than horizontally.
+        and of course,100vmax will be equal to 100vw here.
+        
+    </p>
+     
+</body>
+</html>

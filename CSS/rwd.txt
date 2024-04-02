@@ -1,0 +1,27 @@
+
+what is responsive web design(rwd)?
+
+advantages of rwd
+          improved user exprience
+          increased mobile traffic
+          cost and time efficiency
+          search engine optimization (seo) benifets
+
+way to implement responsive web design
+       responsive layouts
+       responsive images
+       media query
+       responsive typography
+       the view port meta typography
+
+media
+     all
+     screen
+     print
+     speech
+
+Operators
+      and
+      Or
+
+                      

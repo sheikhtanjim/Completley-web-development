@@ -1,0 +1,16 @@
+body{
+    background-color: #3c4180;
+}
+.container{
+       flex-direction: row;
+}
+
+.description{
+    text-align: center;
+}
+.f-item{
+    background-color: blueviolet;
+    height: 400px;
+    width: 400px;
+     row-gap: 10px;
+}
